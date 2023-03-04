@@ -1,5 +1,5 @@
 ---
-# used to turn off all worker node file beats
+# used to turn on all worker node file beats
 - hosts: workers
   become: true
   tags: worker_service_management
